@@ -286,9 +286,9 @@ namespace DWS_Lite
             else if (currentlang.IndexOf("ar", StringComparison.Ordinal) > -1)
             {
                 _rm = ar_LY.ResourceManager;
-                comboBoxLanguageSelect.Text = @"tr-TR | Turkish";
+                comboBoxLanguageSelect.Text = @"ar_LY | Arabic";
             }
-            else if (currentlang.IndexOf("ar", StringComparison.Ordinal) > -1)
+            else if (currentlang.IndexOf("nl", StringComparison.Ordinal) > -1)
             {
                 _rm = nl_NL.ResourceManager;
                 comboBoxLanguageSelect.Text = @"nl-NL | Dutch";
